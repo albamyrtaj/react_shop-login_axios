@@ -1,0 +1,45 @@
+h1{
+    color: black;
+}
+.prodotti-cards{
+    color: black;
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 164px;
+}
+.descrizione{
+    width: fit-content;
+    height: fit-content;
+    //border: 2px solid black;
+}
+.prezzo{
+    //border: 2px solid red;
+}
+.cards{
+    display: flex;
+    gap:10px;
+    height: 200px;
+    width: 250px;
+    border: 2px solid black;
+    box-shadow: 0 0 10px;
+    flex-direction: column;
+    font-weight: bold;
+
+}
+.container-cards{
+   display: flex;
+   flex-direction: row;
+   gap: 50px;
+  
+}
+
+img.img-prodotti {
+    width: 150px;
+    height: 100px;
+    margin: auto;
+}
+
+

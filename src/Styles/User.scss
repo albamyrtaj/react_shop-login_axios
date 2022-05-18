@@ -1,0 +1,32 @@
+.user{
+    color: black;
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 164px;
+
+
+
+}
+.order{
+ 
+    display: flex;
+    gap:30px;
+    height: 300px;
+    width: 300px;
+    border: 2px solid black;
+    box-shadow: 0 0 10px;
+    flex-direction: column;
+    font-weight: bold;
+    align-items: center;
+  
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-top: 20px;
+}
+  

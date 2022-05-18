@@ -1,0 +1,33 @@
+@import url('./Footer.scss');
+@import url('./Header.scss');
+@import url('./Home.scss');
+@import url('./Login.scss');
+@import url('./User.scss');
+
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+#root{
+    
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #fcfcfc;
+    font-family: sans-serif;
+}
